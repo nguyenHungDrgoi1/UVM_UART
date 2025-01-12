@@ -21,7 +21,7 @@ task uart_sw_driver::run_phase(uvm_phase phase);
 
      @(negedge config_intf.reset_n);
           config_intf.tx_data <= 0;
-          //config signal for reset
+          //config signal for reset //Kien
      @(posedge config_intf.reset_n)
      @(posedge config_intf.clk)
      item =new;
@@ -49,7 +49,7 @@ endtask : run_phase
 
 task uart_sw_driver::check_reset();
      wait(~config_intf.reset_n)
-     //config for signal in reset
+     //config for signal in reset //Kien
      @(posedge config.clk);
 endtask
 
@@ -64,7 +64,7 @@ repeat (item.burst_len) begin
      // send_data
      config_intf.tx_data <= item. tx_data;
      config_intf.rx_data <= item.rx_data;
-     //gan tien hieu can tuyen
+     //gan tien hieu can tuyen //Kien
 end 
 endtask
 
