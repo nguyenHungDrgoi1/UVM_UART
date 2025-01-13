@@ -21,7 +21,15 @@ task uart_sw_driver::run_phase(uvm_phase phase);
 
      @(negedge config_intf.reset_n);
           config_intf.tx_data <= 0;
-          //config signal for reset //Kien
+          config_intf.data_bit_num <= 0;
+          config_intf.stop_bit_num <= 0;
+          config_intf.parity_en <= 0;
+          config_intf.parity_type <= 0;
+          config_intf.start_tx <= 0;
+          config_intf.rx_done <= 0;
+          config_intf.tx_done <= 0;
+          config_intf.rx_data <= 0;
+          config_intf.parity_error <= 0;
      @(posedge config_intf.reset_n)
      @(posedge config_intf.clk)
      item =new;
@@ -49,7 +57,16 @@ endtask : run_phase
 
 task uart_sw_driver::check_reset();
      wait(~config_intf.reset_n)
-     //config for signal in reset //Kien
+          config_intf.tx_data <= 0;
+          config_intf.data_bit_num <= 0;
+          config_intf.stop_bit_num <= 0;
+          config_intf.parity_en <= 0;
+          config_intf.parity_type <= 0;
+          config_intf.start_tx <= 0;
+          config_intf.rx_done <= 0;
+          config_intf.tx_done <= 0;
+          config_intf.rx_data <= 0;
+          config_intf.parity_error <= 0;
      @(posedge config.clk);
 endtask
 
@@ -62,9 +79,14 @@ repeat (item.burst_len) begin
       @(posedge config_intf)
      end
      // send_data
-     config_intf.tx_data <= item. tx_data;
-     config_intf.rx_data <= item.rx_data;
-     //gan tien hieu can tuyen //Kien
+     config_intf.rx <= item.rx;
+     config_intf.cts_n <= item.cts_n;
+     config_intf.tx_data <= item.tx_data;
+     config_intf.data_bit_num <= item.data_bit_num;
+     config_intf.stop_bit_num <= item.stop_bit_num;
+     config_intf.parity_en <= item.parity_en;
+     config_intf.parity_type <= item.parity_type;
+     config_intf.start_tx <= item.start_tx;
 end 
 endtask
 

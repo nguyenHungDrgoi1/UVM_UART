@@ -2,6 +2,7 @@ interface uart_sw_intf();
     logic clk;
     logic reset_n;
     logic [7:0] tx_data;
+    logic [7:0] rx_data;
     logic data_bit_num;
     logic stop_bit_num;
     logic parity_en;
