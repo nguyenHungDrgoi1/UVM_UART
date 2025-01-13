@@ -1,14 +1,14 @@
 class uart_sw_item extends uvm_sequence_item;
-    rand cts_n;
-    rand [7:0] tx_data;
-    rand [1:0] data_bit_num;
-    rand stop_bit_num;
-    rand parity_en;
-    rand parity_type;
-    rand start_tx;
+    rand bit cts_n;
+    rand bit [7:0] tx_data;
+    rand bit [1:0] data_bit_num;
+    rand bit stop_bit_num;
+    rand bit parity_en;
+    rand bit parity_type;
+    rand bit start_tx;
 
-    rand rx;
-    rand [7:0] rx_data;
+    rand bit rx;
+    rand bit [7:0] rx_data;
 
     rand int burst_len;
   `uvm_object_utils_begin(uart_sw_item)
