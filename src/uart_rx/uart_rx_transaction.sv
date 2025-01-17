@@ -1,0 +1,1 @@
+class uart_rx_transaction extends uvm_object

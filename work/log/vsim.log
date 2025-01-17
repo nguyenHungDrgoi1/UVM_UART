@@ -1,0 +1,84 @@
+# vsim -c uart_test_top -wlf vsim.wlf -solvefaildebug -assertdebug -sva -coverage -voptargs="+acc" -l ./log/vsim.log "+UVM_VERBOSITY=UVM_MEDIUM" "+UVM_TESTNAME=uart_test" -sv_lib uvm_dpi -do "coverage save -onexit -assert -code bcefs -directive -cvg coverage.ucdb; add wave -r /uart_test_top/*; run -all; quit" 
+# Start time: 14:45:37 on Jan 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 2 FSMs in module "uart(fast)".
+# ** Warning: ../src/uart_sequence.sv(32): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../src/uart_sequence.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.uart_test_top_sv_unit(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading work.uart_test_top(fast)
+# Loading work.uart_sw_intf(fast)
+# Loading work.uart(fast)
+# Loading work.uart_sw_intf(fast)
+# Loading ./uvm_dpi.so
+# coverage save -onexit -assert -code bcefs -directive -cvg coverage.ucdb
+#  add wave -r /uart_test_top/*
+#  run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test uart_test...
+# UVM_INFO ../src/uart_test.sv(18) @ 0: uvm_test_top [config_uart] hello chua biet fill gi
+# UVM_INFO ../src/uart_test.sv(22) @ 0: uvm_test_top [config_uart] sw_intf : 1
+# UVM_INFO ../src/uart_sw_driver.sv(39) @ 30: uvm_test_top.uart_envr.sw_agent.driver [driver] start driver
+# UVM_INFO ../src/uart_sw_driver.sv(80) @ 30: uvm_test_top.uart_envr.sw_agent.driver [drive_func] tx_data = : 35
+# UVM_INFO ../src/uart_sw_monitor.sv(43) @ 60: uvm_test_top.uart_envr.sw_agent.monitor [sw_monitor] monitor_check_reset
+# UVM_INFO ../src/uart_sw_monitor.sv(45) @ 60: uvm_test_top.uart_envr.sw_agent.monitor [sw_monitor] tx_data: 35
+# UVM_INFO ../src/uart_test.sv(31) @ 39235: uvm_test_top [test] complete test
+# UVM_INFO ../libs/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 39235: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    9
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# [config_uart]     2
+# [drive_func]     1
+# [driver]     1
+# [sw_monitor]     2
+# [test]     1
+# ** Note: $finish    : ../libs/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 39235 ns  Iteration: 54  Instance: /uart_test_top
+# Saving coverage database on exit...
+# End time: 14:45:42 on Jan 17,2025, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
