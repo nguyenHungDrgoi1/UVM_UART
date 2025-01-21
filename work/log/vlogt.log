@@ -1,14 +1,15 @@
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
-Start time: 14:45:32 on Jan 17,2025
+Start time: 18:54:58 on Jan 19,2025
 vlog -f filelist_com.f -f filelist_vsim.f -f filelist_tb.f -l ./log/vlogt.log 
 -- Compiling package uvm_pkg
 -- Compiling package uart_test_top_sv_unit
 ** Warning: ../src/uart_sequence.sv(32): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-** Warning: ../src/uart_sequence.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 -- Compiling interface uart_sw_intf
+-- Compiling interface uart_rx_intf
+-- Compiling interface config_interface
 -- Compiling module uart_test_top
 
 Top level modules:
 	uart_test_top
-End time: 14:45:33 on Jan 17,2025, Elapsed time: 0:00:01
-Errors: 0, Warnings: 2
+End time: 18:54:59 on Jan 19,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1

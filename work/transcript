@@ -14,4 +14,9 @@
 # //
 # vsim.wlf opened as dataset "vsim"
 add wave -position insertpoint vsim:/uart_test_top/dut/*
-find drivers -source -time {136 ns} -cause vsim:/uart_test_top/dut/Tpl_32
+dataset reload -f
+# vsim:/uart_test_top/dut
+dataset reload -f
+# vsim:/uart_test_top/dut
+dataset reload -f
+# vsim:/uart_test_top/dut

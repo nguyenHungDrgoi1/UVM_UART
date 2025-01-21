@@ -9,21 +9,47 @@ z2
 cModel Technology
 Z0 d/home/manhung/Downloads/UVM_UART-master/work
 T_opt
-!s110 1737099937
-VN0OFe9QBS7o>HWMin3f1k1
+!s110 1737287703
+V_Fd6TnUzU=kS8InNmQmTY1
 04 13 4 work uart_test_top fast 0
-=1-5c619920e7f1-678a0aa1-85aa5-308e
+=1-5c619920e7f1-678ce816-d0106-35d4
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7c;67
-vuart
+Yconfig_interface
 Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z3 !s110 1737099932
+Z3 DXx4 work 7 uvm_pkg 0 22 E;22;33gLBff[a@U8og7l3
+Z4 DXx4 work 21 uart_test_top_sv_unit 0 22 X=UH:DJQoei`T@Jbj?gf40
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 c0S@?Gg4g6Il`9>@zRL121
+Iz_aIAV9AE4YmNP7RHgDCC1
+Z6 !s105 uart_test_top_sv_unit
+S1
+R0
+w1737226853
+8../src/config_interface.sv
+Z7 F../src/config_interface.sv
+L0 1
+Z8 OL;L;10.7c;67
+31
+Z9 !s108 1737287698.000000
+Z10 !s107 ../src/uart_test.sv|../src/uart_env.sv|../src/uart_sw_agent.sv|../src/uart_sw_driver.sv|../src/uart_sw_monitor.sv|../src/uart_rx/uart_rx_agent.sv|../src/uart_rx/uart_rx_driver.sv|../src/uart_rx/uart_rx_monitor.sv|../src/sw_seqs/uart_standard_send_seq.sv|../src/uart_sequence.sv|../src/uart_rx/uart_rx_sequence.sv|../src/uart_sw_sequencer.sv|../src/uart_rx/uart_rx_sequencer.sv|../src/uart_sw_item.sv|../src/uart_rx/uart_rx_transaction.sv|../src/config_interface.sv|../src/uart_rx/uart_rx_intf.sv|../src/uart_sw_intf.sv|../src/define.sv|../src/include_files.sv|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_built_in_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_access_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_mem_access_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_mem_walk_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh|../libs/uvm-1.1d/src/reg/uvm_reg_block.svh|../libs/uvm-1.1d/src/reg/uvm_reg_map.svh|../libs/uvm-1.1d/src/reg/uvm_mem.svh|../libs/uvm-1.1d/src/reg/uvm_vreg.svh|../libs/uvm-1.1d/src/reg/uvm_mem_mam.svh|../libs/uvm-1.1d/src/reg/uvm_reg_file.svh|../libs/uvm-1.1d/src/reg/uvm_reg_fifo.svh|../libs/uvm-1.1d/src/reg/uvm_reg_indirect.svh|../libs/uvm-1.1d/src/reg/uvm_reg.svh|../libs/uvm-1.1d/src/reg/uvm_vreg_field.svh|../libs/uvm-1.1d/src/reg/uvm_reg_field.svh|../libs/uvm-1.1d/src/reg/uvm_reg_backdoor.svh|../libs/uvm-1.1d/src/reg/uvm_reg_cbs.svh|../libs/uvm-1.1d/src/reg/uvm_reg_sequence.svh|../libs/uvm-1.1d/src/reg/uvm_reg_predictor.svh|../libs/uvm-1.1d/src/reg/uvm_reg_adapter.svh|../libs/uvm-1.1d/src/reg/uvm_reg_item.svh|../libs/uvm-1.1d/src/reg/uvm_reg_model.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_sockets.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_sockets_base.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_exports.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_ports.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_imps.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_ifs.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_generic_payload.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_time.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_defines.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_builtin.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_library.svh|../libs/uvm-1.1d/src/seq/uvm_sequence.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_base.svh|../libs/uvm-1.1d/src/seq/uvm_push_sequencer.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer_param_base.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer_analysis_fifo.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer_base.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_item.svh|../libs/uvm-1.1d/src/seq/uvm_seq.svh|../libs/uvm-1.1d/src/comps/uvm_test.svh|../libs/uvm-1.1d/src/comps/uvm_env.svh|../libs/uvm-1.1d/src/comps/uvm_agent.svh|../libs/uvm-1.1d/src/comps/uvm_scoreboard.svh|../libs/uvm-1.1d/src/comps/uvm_push_driver.svh|../libs/uvm-1.1d/src/comps/uvm_driver.svh|../libs/uvm-1.1d/src/comps/uvm_monitor.svh|../libs/uvm-1.1d/src/comps/uvm_subscriber.svh|../libs/uvm-1.1d/src/comps/uvm_random_stimulus.svh|../libs/uvm-1.1d/src/comps/uvm_algorithmic_comparator.svh|../libs/uvm-1.1d/src/comps/uvm_in_order_comparator.svh|../libs/uvm-1.1d/src/comps/uvm_policies.svh|../libs/uvm-1.1d/src/comps/uvm_pair.svh|../libs/uvm-1.1d/src/comps/uvm_comps.svh|../libs/uvm-1.1d/src/tlm1/uvm_sqr_connections.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_req_rsp.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_fifos.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_fifo_base.svh|../libs/uvm-1.1d/src/tlm1/uvm_analysis_port.svh|../libs/uvm-1.1d/src/tlm1/uvm_exports.svh|../libs/uvm-1.1d/src/tlm1/uvm_ports.svh|../libs/uvm-1.1d/src/tlm1/uvm_imps.svh|../libs/uvm-1.1d/src/base/uvm_port_base.svh|../libs/uvm-1.1d/src/tlm1/uvm_sqr_ifs.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_ifs.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm.svh|../libs/uvm-1.1d/src/base/uvm_cmdline_processor.svh|../libs/uvm-1.1d/src/base/uvm_globals.svh|../libs/uvm-1.1d/src/base/uvm_heartbeat.svh|../libs/uvm-1.1d/src/base/uvm_objection.svh|../libs/uvm-1.1d/src/base/uvm_root.svh|../libs/uvm-1.1d/src/base/uvm_component.svh|../libs/uvm-1.1d/src/base/uvm_runtime_phases.svh|../libs/uvm-1.1d/src/base/uvm_common_phases.svh|../libs/uvm-1.1d/src/base/uvm_task_phase.svh|../libs/uvm-1.1d/src/base/uvm_topdown_phase.svh|../libs/uvm-1.1d/src/base/uvm_bottomup_phase.svh|../libs/uvm-1.1d/src/base/uvm_domain.svh|../libs/uvm-1.1d/src/base/uvm_phase.svh|../libs/uvm-1.1d/src/base/uvm_transaction.svh|../libs/uvm-1.1d/src/base/uvm_report_object.svh|../libs/uvm-1.1d/src/base/uvm_report_handler.svh|../libs/uvm-1.1d/src/base/uvm_report_server.svh|../libs/uvm-1.1d/src/base/uvm_report_catcher.svh|../libs/uvm-1.1d/src/base/uvm_callback.svh|../libs/uvm-1.1d/src/base/uvm_barrier.svh|../libs/uvm-1.1d/src/base/uvm_event.svh|../libs/uvm-1.1d/src/base/uvm_event_callback.svh|../libs/uvm-1.1d/src/base/uvm_recorder.svh|../libs/uvm-1.1d/src/base/uvm_packer.svh|../libs/uvm-1.1d/src/base/uvm_comparer.svh|../libs/uvm-1.1d/src/base/uvm_printer.svh|../libs/uvm-1.1d/src/base/uvm_config_db.svh|../libs/uvm-1.1d/src/base/uvm_resource_db.svh|../libs/uvm-1.1d/src/base/uvm_resource_specializations.svh|../libs/uvm-1.1d/src/base/uvm_resource.svh|../libs/uvm-1.1d/src/base/uvm_spell_chkr.svh|../libs/uvm-1.1d/src/base/uvm_registry.svh|../libs/uvm-1.1d/src/base/uvm_factory.svh|../libs/uvm-1.1d/src/base/uvm_queue.svh|../libs/uvm-1.1d/src/base/uvm_pool.svh|../libs/uvm-1.1d/src/base/uvm_object.svh|../libs/uvm-1.1d/src/base/uvm_misc.svh|../libs/uvm-1.1d/src/base/uvm_object_globals.svh|../libs/uvm-1.1d/src/base/uvm_version.svh|../libs/uvm-1.1d/src/base/uvm_base.svh|../libs/uvm-1.1d/src/dpi/uvm_regex.svh|../libs/uvm-1.1d/src/dpi/uvm_svcmd_dpi.svh|../libs/uvm-1.1d/src/dpi/uvm_hdl.svh|../libs/uvm-1.1d/src/dpi/uvm_dpi.svh|../libs/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|../libs/uvm-1.1d/src/macros/uvm_reg_defines.svh|../libs/uvm-1.1d/src/macros/uvm_callback_defines.svh|../libs/uvm-1.1d/src/macros/uvm_sequence_defines.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|../libs/uvm-1.1d/src/macros/uvm_tlm_defines.svh|../libs/uvm-1.1d/src/macros/uvm_printer_defines.svh|../libs/uvm-1.1d/src/macros/uvm_object_defines.svh|../libs/uvm-1.1d/src/macros/uvm_phase_defines.svh|../libs/uvm-1.1d/src/macros/uvm_message_defines.svh|../libs/uvm-1.1d/src/macros/uvm_version_defines.svh|../libs/uvm-1.1d/src/uvm_macros.svh|../libs/uvm-1.1d/src/uvm_pkg.sv|../libs/uvm-1.1d/src/uvm.sv|../inc/include_file_top.sv|../src/uart_test_top.sv|
+Z11 !s90 -f|filelist_com.f|-f|filelist_vsim.f|-f|filelist_tb.f|-l|./log/vlogt.log|
+!i113 0
+Z12 o+libext+.v +libext+.vh +libext+.sv +libext+.svh +notimingchecks -sv -timescale 1ns/1ns -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 +libext+.v +libext+.vh +libext+.sv +libext+.svh +notimingchecks -sv -timescale 1ns/1ns +incdir+../src +incdir+../src/uart_rx +incdir+../src/sw_seqs +incdir+../inc +incdir+../libs/uvm-1.1d/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vuart
+R2
+!s110 1737287698
 !i10b 1
 !s100 >eG;8jYgH]7@LLX^e:9NG1
 I1hoJ[A5Zz7iQXNDLDfg@z2
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+R5
 !s105 uart_sv_unit
 S1
 R0
@@ -31,11 +57,11 @@ w1736774937
 8../dut/uart.sv
 F../dut/uart.sv
 L0 2
-Z5 OL;L;10.7c;67
+R8
 r1
 !s85 0
 31
-Z6 !s108 1737099932.000000
+R9
 !s107 ../dut/uart.sv|
 !s90 -f|filelist_com.f|-f|filelist_rtl.f|+cover=bcefs|-l|./log/vlogr.log|
 !i113 0
@@ -43,122 +69,158 @@ Z6 !s108 1737099932.000000
 o+libext+.v +libext+.vh +libext+.sv +libext+.svh +cover=bcefs -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 !s92 +libext+.v +libext+.vh +libext+.sv +libext+.svh -y ../dut +cover=bcefs -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
-Yuart_sw_intf
+Yuart_rx_intf
 R2
-Z7 DXx4 work 7 uvm_pkg 0 22 lBl;_O8>mN:O5Bg[ECMgP2
-Z8 DXx4 work 21 uart_test_top_sv_unit 0 22 lSdeM>B00BGS65c=X8VPJ1
+R3
 R4
+R5
 r1
 !s85 0
 !i10b 1
-!s100 J3llNzK`c6;:YRFf0]POI0
-I]ga3C@_<:?YbL1c[]^]a`1
-Z9 !s105 uart_test_top_sv_unit
+!s100 [oRzGWXICi88J1oz0dGoJ1
+I1nFcLn1Y95c4TXjdK[l8_2
+R6
 S1
 R0
-w1736964474
-8../src/uart_sw_intf.sv
-Z10 F../src/uart_sw_intf.sv
+w1737137727
+8../src/uart_rx/uart_rx_intf.sv
+Z14 F../src/uart_rx/uart_rx_intf.sv
 L0 1
-R5
+R8
 31
-R6
-Z11 !s107 ../src/uart_test.sv|../src/uart_env.sv|../src/uart_sw_agent.sv|../src/uart_sw_driver.sv|../src/uart_sw_monitor.sv|../src/sw_seqs/uart_standard_send_seq.sv|../src/uart_sequence.sv|../src/uart_sw_sequencer.sv|../src/uart_sw_item.sv|../src/uart_sw_intf.sv|../src/define.sv|../src/include_files.sv|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_built_in_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_access_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_mem_access_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_mem_walk_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh|../libs/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh|../libs/uvm-1.1d/src/reg/uvm_reg_block.svh|../libs/uvm-1.1d/src/reg/uvm_reg_map.svh|../libs/uvm-1.1d/src/reg/uvm_mem.svh|../libs/uvm-1.1d/src/reg/uvm_vreg.svh|../libs/uvm-1.1d/src/reg/uvm_mem_mam.svh|../libs/uvm-1.1d/src/reg/uvm_reg_file.svh|../libs/uvm-1.1d/src/reg/uvm_reg_fifo.svh|../libs/uvm-1.1d/src/reg/uvm_reg_indirect.svh|../libs/uvm-1.1d/src/reg/uvm_reg.svh|../libs/uvm-1.1d/src/reg/uvm_vreg_field.svh|../libs/uvm-1.1d/src/reg/uvm_reg_field.svh|../libs/uvm-1.1d/src/reg/uvm_reg_backdoor.svh|../libs/uvm-1.1d/src/reg/uvm_reg_cbs.svh|../libs/uvm-1.1d/src/reg/uvm_reg_sequence.svh|../libs/uvm-1.1d/src/reg/uvm_reg_predictor.svh|../libs/uvm-1.1d/src/reg/uvm_reg_adapter.svh|../libs/uvm-1.1d/src/reg/uvm_reg_item.svh|../libs/uvm-1.1d/src/reg/uvm_reg_model.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_sockets.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_sockets_base.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_exports.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_ports.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_imps.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_ifs.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_generic_payload.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_time.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2_defines.svh|../libs/uvm-1.1d/src/tlm2/uvm_tlm2.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_builtin.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_library.svh|../libs/uvm-1.1d/src/seq/uvm_sequence.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_base.svh|../libs/uvm-1.1d/src/seq/uvm_push_sequencer.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer_param_base.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer_analysis_fifo.svh|../libs/uvm-1.1d/src/seq/uvm_sequencer_base.svh|../libs/uvm-1.1d/src/seq/uvm_sequence_item.svh|../libs/uvm-1.1d/src/seq/uvm_seq.svh|../libs/uvm-1.1d/src/comps/uvm_test.svh|../libs/uvm-1.1d/src/comps/uvm_env.svh|../libs/uvm-1.1d/src/comps/uvm_agent.svh|../libs/uvm-1.1d/src/comps/uvm_scoreboard.svh|../libs/uvm-1.1d/src/comps/uvm_push_driver.svh|../libs/uvm-1.1d/src/comps/uvm_driver.svh|../libs/uvm-1.1d/src/comps/uvm_monitor.svh|../libs/uvm-1.1d/src/comps/uvm_subscriber.svh|../libs/uvm-1.1d/src/comps/uvm_random_stimulus.svh|../libs/uvm-1.1d/src/comps/uvm_algorithmic_comparator.svh|../libs/uvm-1.1d/src/comps/uvm_in_order_comparator.svh|../libs/uvm-1.1d/src/comps/uvm_policies.svh|../libs/uvm-1.1d/src/comps/uvm_pair.svh|../libs/uvm-1.1d/src/comps/uvm_comps.svh|../libs/uvm-1.1d/src/tlm1/uvm_sqr_connections.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_req_rsp.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_fifos.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_fifo_base.svh|../libs/uvm-1.1d/src/tlm1/uvm_analysis_port.svh|../libs/uvm-1.1d/src/tlm1/uvm_exports.svh|../libs/uvm-1.1d/src/tlm1/uvm_ports.svh|../libs/uvm-1.1d/src/tlm1/uvm_imps.svh|../libs/uvm-1.1d/src/base/uvm_port_base.svh|../libs/uvm-1.1d/src/tlm1/uvm_sqr_ifs.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_ifs.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm.svh|../libs/uvm-1.1d/src/base/uvm_cmdline_processor.svh|../libs/uvm-1.1d/src/base/uvm_globals.svh|../libs/uvm-1.1d/src/base/uvm_heartbeat.svh|../libs/uvm-1.1d/src/base/uvm_objection.svh|../libs/uvm-1.1d/src/base/uvm_root.svh|../libs/uvm-1.1d/src/base/uvm_component.svh|../libs/uvm-1.1d/src/base/uvm_runtime_phases.svh|../libs/uvm-1.1d/src/base/uvm_common_phases.svh|../libs/uvm-1.1d/src/base/uvm_task_phase.svh|../libs/uvm-1.1d/src/base/uvm_topdown_phase.svh|../libs/uvm-1.1d/src/base/uvm_bottomup_phase.svh|../libs/uvm-1.1d/src/base/uvm_domain.svh|../libs/uvm-1.1d/src/base/uvm_phase.svh|../libs/uvm-1.1d/src/base/uvm_transaction.svh|../libs/uvm-1.1d/src/base/uvm_report_object.svh|../libs/uvm-1.1d/src/base/uvm_report_handler.svh|../libs/uvm-1.1d/src/base/uvm_report_server.svh|../libs/uvm-1.1d/src/base/uvm_report_catcher.svh|../libs/uvm-1.1d/src/base/uvm_callback.svh|../libs/uvm-1.1d/src/base/uvm_barrier.svh|../libs/uvm-1.1d/src/base/uvm_event.svh|../libs/uvm-1.1d/src/base/uvm_event_callback.svh|../libs/uvm-1.1d/src/base/uvm_recorder.svh|../libs/uvm-1.1d/src/base/uvm_packer.svh|../libs/uvm-1.1d/src/base/uvm_comparer.svh|../libs/uvm-1.1d/src/base/uvm_printer.svh|../libs/uvm-1.1d/src/base/uvm_config_db.svh|../libs/uvm-1.1d/src/base/uvm_resource_db.svh|../libs/uvm-1.1d/src/base/uvm_resource_specializations.svh|../libs/uvm-1.1d/src/base/uvm_resource.svh|../libs/uvm-1.1d/src/base/uvm_spell_chkr.svh|../libs/uvm-1.1d/src/base/uvm_registry.svh|../libs/uvm-1.1d/src/base/uvm_factory.svh|../libs/uvm-1.1d/src/base/uvm_queue.svh|../libs/uvm-1.1d/src/base/uvm_pool.svh|../libs/uvm-1.1d/src/base/uvm_object.svh|../libs/uvm-1.1d/src/base/uvm_misc.svh|../libs/uvm-1.1d/src/base/uvm_object_globals.svh|../libs/uvm-1.1d/src/base/uvm_version.svh|../libs/uvm-1.1d/src/base/uvm_base.svh|../libs/uvm-1.1d/src/dpi/uvm_regex.svh|../libs/uvm-1.1d/src/dpi/uvm_svcmd_dpi.svh|../libs/uvm-1.1d/src/dpi/uvm_hdl.svh|../libs/uvm-1.1d/src/dpi/uvm_dpi.svh|../libs/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|../libs/uvm-1.1d/src/macros/uvm_reg_defines.svh|../libs/uvm-1.1d/src/macros/uvm_callback_defines.svh|../libs/uvm-1.1d/src/macros/uvm_sequence_defines.svh|../libs/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|../libs/uvm-1.1d/src/macros/uvm_tlm_defines.svh|../libs/uvm-1.1d/src/macros/uvm_printer_defines.svh|../libs/uvm-1.1d/src/macros/uvm_object_defines.svh|../libs/uvm-1.1d/src/macros/uvm_phase_defines.svh|../libs/uvm-1.1d/src/macros/uvm_message_defines.svh|../libs/uvm-1.1d/src/macros/uvm_version_defines.svh|../libs/uvm-1.1d/src/uvm_macros.svh|../libs/uvm-1.1d/src/uvm_pkg.sv|../libs/uvm-1.1d/src/uvm.sv|../inc/include_file_top.sv|../src/uart_test_top.sv|
-Z12 !s90 -f|filelist_com.f|-f|filelist_vsim.f|-f|filelist_tb.f|-l|./log/vlogt.log|
+R9
+R10
+R11
 !i113 0
-Z13 o+libext+.v +libext+.vh +libext+.sv +libext+.svh +notimingchecks -sv -timescale 1ns/1ns -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z14 !s92 +libext+.v +libext+.vh +libext+.sv +libext+.svh +notimingchecks -sv -timescale 1ns/1ns +incdir+../src +incdir+../src/sw_seqs +incdir+../inc +incdir+../libs/uvm-1.1d/src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+R13
+R1
+Yuart_sw_intf
+R2
+R3
+R4
+R5
+r1
+!s85 0
+!i10b 1
+!s100 D824P?Gz@Q;GSH>LOCEgd1
+IYdE:[EnnY2CKE1[KbcGfO1
+R6
+S1
+R0
+w1737228632
+8../src/uart_sw_intf.sv
+Z15 F../src/uart_sw_intf.sv
+L0 1
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
 R1
 vuart_test_top
 R2
-R7
-R8
+R3
 R4
+R5
 r1
 !s85 0
 !i10b 1
-!s100 nVlLSFFB:JNQo:eZHK:Mb0
-ILQEg5AcKeECndIPF`MMB_2
-R9
+!s100 zmWEkn3`UaR7c9?J52LEe3
+Idk0h5zP@:<h1j8b5JEaaS0
+R6
 S1
 R0
-w1736965580
-Z15 8../src/uart_test_top.sv
-Z16 F../src/uart_test_top.sv
+w1737279811
+Z16 8../src/uart_test_top.sv
+Z17 F../src/uart_test_top.sv
 L0 2
-R5
+R8
 31
-R6
+R9
+R10
 R11
-R12
 !i113 0
+R12
 R13
-R14
 R1
 Xuart_test_top_sv_unit
 !s115 uart_sw_intf
+!s115 config_interface
+!s115 uart_rx_intf
 R2
-R7
-VlSdeM>B00BGS65c=X8VPJ1
+R3
+VX=UH:DJQoei`T@Jbj?gf40
 r1
 !s85 0
 !i10b 1
-!s100 6aL2?C<2CYL7i7EO::75V3
-IlSdeM>B00BGS65c=X8VPJ1
+!s100 NjlZ8gVhWghGadUC[3mQ^0
+IX=UH:DJQoei`T@Jbj?gf40
 !i103 1
 S1
 R0
-w1737099927
-R15
+w1737287694
 R16
+R17
 F../inc/include_file_top.sv
 F../libs/uvm-1.1d/src/uvm.sv
-Z17 F../libs/uvm-1.1d/src/uvm_pkg.sv
-Z18 F../libs/uvm-1.1d/src/uvm_macros.svh
+Z18 F../libs/uvm-1.1d/src/uvm_pkg.sv
+Z19 F../libs/uvm-1.1d/src/uvm_macros.svh
 F../libs/uvm-1.1d/src/macros/uvm_version_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_message_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_phase_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_object_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_printer_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_tlm_defines.svh
-Z19 F../libs/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z20 F../libs/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
 F../libs/uvm-1.1d/src/macros/uvm_sequence_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_callback_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_reg_defines.svh
 F../libs/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
 F../src/include_files.sv
 F../src/define.sv
-R10
+R15
+R14
+R7
+F../src/uart_rx/uart_rx_transaction.sv
 F../src/uart_sw_item.sv
+F../src/uart_rx/uart_rx_sequencer.sv
 F../src/uart_sw_sequencer.sv
+F../src/uart_rx/uart_rx_sequence.sv
 F../src/uart_sequence.sv
 F../src/sw_seqs/uart_standard_send_seq.sv
+F../src/uart_rx/uart_rx_monitor.sv
+F../src/uart_rx/uart_rx_driver.sv
+F../src/uart_rx/uart_rx_agent.sv
 F../src/uart_sw_monitor.sv
 F../src/uart_sw_driver.sv
 F../src/uart_sw_agent.sv
 F../src/uart_env.sv
 F../src/uart_test.sv
 L0 4
-R5
+R8
 31
-R6
+R9
+R10
 R11
-R12
 !i113 0
+R12
 R13
-R14
 R1
 Xuvm_pkg
 R2
-R3
+!s110 1737287699
 !i10b 1
 !s100 a]WbS4GK]e6FCc7GWzXkF2
-IlBl;_O8>mN:O5Bg[ECMgP2
-VlBl;_O8>mN:O5Bg[ECMgP2
+IE;22;33gLBff[a@U8og7l3
+VE;22;33gLBff[a@U8og7l3
 S1
 R0
 w1736774936
-R17
+R18
 F../libs/uvm-1.1d/src/dpi/uvm_dpi.svh
 F../libs/uvm-1.1d/src/dpi/uvm_hdl.svh
 F../libs/uvm-1.1d/src/dpi/uvm_svcmd_dpi.svh
@@ -185,7 +247,7 @@ F../libs/uvm-1.1d/src/base/uvm_event_callback.svh
 F../libs/uvm-1.1d/src/base/uvm_event.svh
 F../libs/uvm-1.1d/src/base/uvm_barrier.svh
 F../libs/uvm-1.1d/src/base/uvm_callback.svh
-R18
+R19
 F../libs/uvm-1.1d/src/base/uvm_report_catcher.svh
 F../libs/uvm-1.1d/src/base/uvm_report_server.svh
 F../libs/uvm-1.1d/src/base/uvm_report_handler.svh
@@ -208,7 +270,7 @@ F../libs/uvm-1.1d/src/tlm1/uvm_tlm.svh
 F../libs/uvm-1.1d/src/tlm1/uvm_tlm_ifs.svh
 F../libs/uvm-1.1d/src/tlm1/uvm_sqr_ifs.svh
 F../libs/uvm-1.1d/src/base/uvm_port_base.svh
-R19
+R20
 F../libs/uvm-1.1d/src/tlm1/uvm_imps.svh
 F../libs/uvm-1.1d/src/tlm1/uvm_ports.svh
 F../libs/uvm-1.1d/src/tlm1/uvm_exports.svh
@@ -279,14 +341,14 @@ F../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh
 F../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_built_in_seq.svh
 F../libs/uvm-1.1d/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
 L0 27
-R5
+R8
 r1
 !s85 0
 31
-R6
+R9
+R10
 R11
-R12
 !i113 0
+R12
 R13
-R14
 R1

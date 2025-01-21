@@ -39,6 +39,7 @@
 // -y  ../libs/dti_uart_vip/intf
 // -y  ../libs/dti_uart_vip/inc
 +incdir+../src
++incdir+../src/uart_rx
 +incdir+../src/sw_seqs
 +incdir+../inc
 +incdir+../libs/uvm-1.1d/src

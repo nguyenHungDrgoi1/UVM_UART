@@ -9,6 +9,6 @@ interface uart_sw_intf();
     logic start_tx;
     logic rx_done;
     logic tx_done;
-    logic [7:0] rx_data;
+    logic rx_data;
     logic parity_error;
 endinterface

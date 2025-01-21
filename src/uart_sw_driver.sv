@@ -50,6 +50,8 @@ task uart_sw_driver::run_phase(uvm_phase phase);
           //      @(posedge config_intf.clk);
           //#200
                seq_item_port.get_next_item(item);
+               item.print();
+               `uvm_info("driver",$sformatf("bit_num = : %h",item.data_bit_num),UVM_MEDIUM)
                //repeat(item.delay_for_tran) @(posedge config_intf.clk);
                //drive_item(m_item);
 
@@ -77,7 +79,7 @@ endtask
 
 task uart_sw_driver::drive();
 int current_idx = 0;
-`uvm_info("drive_func",$sformatf("tx_data = : %h",item.tx_data),UVM_MEDIUM)
+`uvm_info("drive_num_bit",$sformatf("bit_num = : %h",item.data_bit_num),UVM_MEDIUM)
 // repeat (item.burst_len) begin
 //      //idle
      // while(config_intf.reset_n == 1'b0) begin

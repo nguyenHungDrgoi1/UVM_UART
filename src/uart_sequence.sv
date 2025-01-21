@@ -30,10 +30,11 @@ class uart_sequence extends uvm_sequence #(uart_sw_item);
      	//start_item(m_item);
        // 
     	m_item.randomize();
+      m_item.print();
        `uvm_info("SEQ", $sformatf("Generate new item: %d", m_item.tx_data), UVM_MEDIUM)
        `uvm_do(m_item);
-       m_item.randomize();
-       `uvm_do(m_item);
+      //  m_item.randomize();
+      //  `uvm_do(m_item);
     //   	finish_item(m_item);
     //`uvm_info("SEQ", $sformatf("Done generation of %0d items", num), UVM_LOW)
   endtask
