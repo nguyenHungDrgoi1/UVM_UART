@@ -66,6 +66,8 @@ task uart_sw_driver::run_phase(uvm_phase phase);
           if(item.start_tx == 1) begin
           @(posedge config_intf.clk);
           @(posedge config_intf.tx_done);
+          `uvm_info("driver",$sformatf("send_done = : %h",item.tx_data),UVM_MEDIUM)
+          config_intf.start_tx = 0;
           end
           seq_item_port.item_done();
      end
@@ -89,6 +91,12 @@ int current_idx = 0;
      config_intf.parity_en = item.parity_en;
      config_intf.parity_type = item.parity_type;
      config_intf.start_tx = item.start_tx;
+     // @(posedge config_intf.clk )
+      //@(posedge config_intf.clk )
+     // @(posedge config_intf.clk )
+     // @(posedge config_intf.clk )
+     //config_intf.start_tx = 0 ;
+     //`uvm_info("driver",$sformatf("checkkkk"),UVM_MEDIUM)
      //`uvm_info("intf",$sformatf("hello chua biet fill gi : %h",config_intf.tx_data),UVM_MEDIUM)
      //  @(posedge config_intf);
 //  end

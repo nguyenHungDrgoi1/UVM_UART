@@ -3,6 +3,7 @@ module uart_test_top();
 	//define intf
 	uart_sw_intf uart_intf();
 	uart_rx_intf rx_if();
+	uart_tx_intf tx_if();
 	config_interface config_intf();
 	logic rx;
 	logic tx;
@@ -15,7 +16,7 @@ module uart_test_top();
 		.clk(uart_intf.clk),
 		.reset_n(uart_intf.reset_n),
 		.tx_data     (uart_intf.tx_data),
-		.rx          (rx),
+		.rx          (tx_if.tx),
 		.tx          (rx_if.rx),
 		.tx_done     (uart_intf.tx_done),
 		.rx_data     (uart_intf.rx_data),
@@ -27,8 +28,10 @@ module uart_test_top();
 		.parity_type (uart_intf.parity_type),
 		.parity_error(uart_intf.parity_error),
 		.cts_n       (cts_n),
-		.rts_n       (rts_n)
+		.rts_n       (tx_if.cts_n)
 	);
+	assign tx_if.clk = clk;
+	assign rx_if.clk = clk;
 	assign uart_intf.clk = clk;
 	assign uart_intf.reset_n = reset_n;
 	assign cts_n = 0;
@@ -51,6 +54,7 @@ module uart_test_top();
 	initial begin
 	uvm_config_db#(virtual uart_sw_intf)::set(null, "uvm_test_top", "uart_sw_intf", uart_intf);
 	uvm_config_db#(virtual uart_rx_intf)::set(null, "uvm_test_top", "uart_rx_intf", rx_if);
+	uvm_config_db#(virtual uart_tx_intf)::set(null, "uvm_test_top", "uart_tx_intf", tx_if);
 	uvm_config_db#(virtual config_interface)::set(null, "uvm_test_top", "config_interface", config_intf);
 	run_test();
 	end

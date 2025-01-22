@@ -15,4 +15,5 @@ import uvm_pkg::*;
 
 //include test
 `include "uart_test.sv"
+`include "uart_receive_test.sv"
 

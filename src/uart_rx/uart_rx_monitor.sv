@@ -4,7 +4,7 @@ class uart_rx_monitor extends uvm_monitor;
      virtual uart_rx_intf rx_if;
      virtual config_interface config_intf;
 	 logic clk;
-     uvm_analysis_port #(uart_rx_monitor) ap ;
+     uvm_analysis_port #(uart_rx_transaction) ap ;
 	 //uart_sw_item item;
      logic[3:0] parity;
 
@@ -46,6 +46,7 @@ task uart_rx_monitor::run_phase(uvm_phase phase);
     parity = 0;
 	 forever begin
         //wait for start condition from rx
+         item.data_frame = 0;
 	  	@(negedge rx_if.rx);
 	 	`uvm_info("rx_monitor",$sformatf("start_receive"),UVM_MEDIUM)
         #(bit_time*10ns);
@@ -56,6 +57,7 @@ task uart_rx_monitor::run_phase(uvm_phase phase);
                for(int i = 0; i < `DATA_FRAME_5BIT; i++) begin
                     parity += rx_if.rx;
                     item.data_frame[i] = rx_if.rx;
+                    `uvm_info("rx_monitor",$sformatf("data_recive_debug: %h",item.data_frame),UVM_MEDIUM)
                     #(bit_time*20ns);
                end
           end
@@ -112,7 +114,9 @@ task uart_rx_monitor::run_phase(uvm_phase phase);
           end
           parity = 0 ;
 	 		//fill not vao cho em Hung Kien
+               ap.write(item);
+               #100
+               ap.write(item);
 	 end
-	// 	ap.write(item);
 	//  end
 endtask : run_phase
