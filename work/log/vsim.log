@@ -1,5 +1,5 @@
 # vsim -c uart_test_top -wlf vsim.wlf -solvefaildebug -assertdebug -sva -coverage -voptargs="+acc" -l ./log/vsim.log "+UVM_VERBOSITY=UVM_MEDIUM" "+UVM_TESTNAME=uart_receive_test" -sv_lib uvm_dpi -do "coverage save -onexit -assert -code bcefs -directive -cvg uart_receive_test.ucdb; add wave -r /uart_test_top/*; run -all; quit" 
-# Start time: 12:12:54 on Jan 22,2025
+# Start time: 13:12:20 on Jan 22,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 2 FSMs in module "uart(fast)".
 # ** Warning: ../src/uart_sw_monitor.sv(29): (vopt-2727) One of implicit coverpoints at line '29' is a duplicate of the explicitly declared coverpoint 'DATA_BIT_NUM' at line '25'. The coverage score may be skewed as a result.
@@ -11917,5 +11917,5 @@
 # ** Note: $finish    : ../libs/uvm-1.1d/src/base/uvm_root.svh(430)
 #    Time: 33882420 ns  Iteration: 54  Instance: /uart_test_top
 # Saving coverage database on exit...
-# End time: 12:13:07 on Jan 22,2025, Elapsed time: 0:00:13
+# End time: 13:12:33 on Jan 22,2025, Elapsed time: 0:00:13
 # Errors: 0, Warnings: 8
